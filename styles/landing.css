@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
     padding: 0;
@@ -85,4 +85,39 @@ nav{
     width: 403px;
     height: 328px;
     border-radius: 48px;
+}
+
+
+/* ========== Productive Section ========== */
+
+.productive-section {
+    margin-top: 100px;
+    background-color: #4E47FF1A;
+    border-radius: 24px;
+    padding: 50px 162px;
+}
+
+.p-title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.data h1{
+    font-size: 80px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+}
+
+.data p{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #757575;
 }
