@@ -174,10 +174,11 @@ nav{
 }
 
 .pimg h4{
-    margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 .pimg p{
+    margin-top: 5px;
     font-family: "Inter", sans-serif;
 }
 
@@ -264,4 +265,36 @@ nav{
     border: none;
     border-radius: 8px;
     margin-top: 20px;
+}
+
+/* ========== footer section ========== */
+.footer{
+    background-color: white;
+    text-align: center;
+    height: 250px;
+}
+
+.footer-logo img{
+    width: 291px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+footer p{
+    color: #8987A1;
+}
+
+.footer-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 48px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    color: #8987A1;
 }
