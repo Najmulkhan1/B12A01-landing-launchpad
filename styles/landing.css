@@ -8,9 +8,15 @@
 }
 
 header{
-    background-image: url(../Assets/Frame\ 1.png);
+    background-image: url(../Assets/Hero-bg.png);
     height: 698px;
 }
+
+main{
+    width: 1140px;
+    margin: 120px auto;
+}
+
 
 /* ========== shared css ========== */
 .btn{
@@ -25,7 +31,7 @@ header{
 
 /* ========== Navbar ========== */
 nav{
-    width: 1340px;
+    width: 1140px;
     margin: 0 auto;
 }
 
@@ -54,4 +60,29 @@ nav{
 
 .hero-banner{
     margin-bottom: 40px;
+}
+
+/* ========== Action Section ========== */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-section h1{
+    font-size: 42px;
+    font-weight: 800;
+    padding-bottom: 23px;
+}
+
+.action-section p{
+    font-size: 24px;
+    color: #252432;
+    padding-bottom: 23px;
+}
+
+.ac-right img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 }
