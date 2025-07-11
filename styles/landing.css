@@ -13,7 +13,7 @@ body{
 
 header{
     background-image: url(../Assets/Hero-bg.png);
-    height: 698px;
+    height: auto;
 }
 
 main{
@@ -31,6 +31,14 @@ main{
     color: white;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(49, 49, 49);
+    color: #6c67ed;
+    font-weight: 700;
+    transition: 0.5s;
 }
 
 /* ========== Navbar ========== */
@@ -64,6 +72,14 @@ nav{
 
 .hero-banner{
     margin-bottom: 40px;
+}
+
+.hero-banner h1{
+    margin-bottom: 50px;
+}
+
+.hero-banner button{
+    margin-bottom: 60px
 }
 
 /* ========== Action Section ========== */
@@ -152,6 +168,10 @@ nav{
     box-shadow: 2px 4px 6px rgba(187, 183, 183, 0.4);
 }
 
+.user:hover{
+  background: transparent;
+}
+
 .user img{
     margin-bottom: 20px;
 }
@@ -168,16 +188,27 @@ nav{
     margin-bottom: 30px;
 }
 
-.pimg{
+.reviewer{
     display: flex;
-    gap: 20px;
+    align-items: center;
+    gap: 10px;
 }
 
-.pimg h4{
-    padding-bottom: 5px;
+.reviewer img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.pimg p{
+.reviewer-info{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.reviewer p{
     margin-top: 5px;
     font-family: "Inter", sans-serif;
 }
@@ -265,6 +296,7 @@ nav{
     border: none;
     border-radius: 8px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 /* ========== footer section ========== */
@@ -297,4 +329,8 @@ footer p{
 .footer-menu a{
     text-decoration: none;
     color: #8987A1;
+}
+
+.footer-menu a:hover{
+    color: #4E47FF;
 }
